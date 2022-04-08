@@ -19,7 +19,7 @@ TBD
 
 ### 사용
 
-|               |                                                                 |
+| -             | Link                                                            |
 |---------------|-----------------------------------------------------------------|
 | Lang          | [rescript](https://rescript-lang.org/)                          |
 | Web Framework | [remix](https://remix.run/)                                     |
