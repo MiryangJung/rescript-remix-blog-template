@@ -59,4 +59,5 @@ TBD
 
 ## 트러블 슈팅
 
-TBD
+- remix-rescript 에서 `mdx` 파일 라우팅이 안됨.
+  - [포럼에 질문](https://forum.rescript-lang.org/t/how-can-i-handle-mdx-in-rescript-remix/3218/2)
