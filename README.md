@@ -65,3 +65,4 @@ TBD
   - ```we suggest you rethink your strategy and turn your posts into data stored in a database so that you don't have to rebuild and redeploy your blog every time you fix a typo.```
   - remix에서는 DB 사용을 권장하고 있음.
   - 어떤 DB store를 사용할 지 고민 필요.
+  - 근데 다시 생각해보니 DB에 데이터를 넣으려면 인증 부분이 들어가야해서 초기 기획과 맞지 않음.
