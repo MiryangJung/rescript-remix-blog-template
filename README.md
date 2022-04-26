@@ -67,5 +67,6 @@ TBD
   - 어떤 DB store를 사용할 지 고민 필요.
   - 근데 다시 생각해보니 DB에 데이터를 넣으려면 인증 부분이 들어가야해서 초기 기획과 맞지 않음.
 - `LoaderFunction` 이 바인딩 안 되어있음.
+  - 필요한 이유 : [mdx#example-blog-usage](https://remix.run/docs/en/v1.4.1/guides/mdx#example-blog-usage)
   - 바인딩 된 PR이 아직 머지가 안되어있음을 발견! [rescript-remix PR#21](https://github.com/tom-sherman/rescript-remix/pull/21)
   - 코멘트를 남겼으나 언제 확인할 지 모르므로 stuck 상태
