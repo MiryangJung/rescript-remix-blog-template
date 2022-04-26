@@ -61,3 +61,7 @@ TBD
 
 - remix-rescript 에서 `mdx` 파일 라우팅이 안됨.
   - [포럼에 질문](https://forum.rescript-lang.org/t/how-can-i-handle-mdx-in-rescript-remix/3218/2)
+- 특정 폴더 내의 `.mdx` 리스트를 가져오는 방법을 모르겠음.
+  - ```we suggest you rethink your strategy and turn your posts into data stored in a database so that you don't have to rebuild and redeploy your blog every time you fix a typo.```
+  - remix에서는 DB 사용을 권장하고 있음.
+  - 어떤 DB store를 사용할 지 고민 필요.
