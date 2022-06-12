@@ -71,6 +71,9 @@ TBD
   - 필요한 이유 : [mdx#example-blog-usage](https://remix.run/docs/en/v1.4.1/guides/mdx#example-blog-usage)
   - 바인딩 된 PR이 아직 머지가 안되어있음을 발견! [rescript-remix PR#21](https://github.com/tom-sherman/rescript-remix/pull/21)
   - 코멘트를 남겼으나 언제 확인할 지 모르므로 stuck 상태
- 
+- 바인딩을 직접 해보자
+  - 바인딩을 어떻게 하는지 모르므로 공부해보기
+  - [remix-rescript로 rescript 바인딩 알아보기](https://miryang.dev/blog/learn-about-remix-rescript-binding)
+
 ## 참고 소스
 - [Add example app: jokes (Js.Json.t version)](https://github.com/tom-sherman/rescript-remix/pull/21)
