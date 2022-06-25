@@ -42,6 +42,7 @@ module Link = {
     ~replace: bool=?,
     ~state: 'a=?,
     ~children: React.element,
+    ~className: string=?,
   ) => React.element = "Link"
 }
 

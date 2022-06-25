@@ -20,6 +20,7 @@ function links(param) {
 
 function Root$default(Props) {
   return React.createElement("html", {
+              className: "dark",
               lang: "ko"
             }, React.createElement("head", undefined, React.createElement("meta", {
                       charSet: "utf-8"
