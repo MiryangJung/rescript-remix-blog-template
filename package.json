@@ -1,0 +1,32 @@
+{
+  "name": "rescript-remix-blog-example",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "res:dev": "rescript build -w"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.6.1",
+    "@remix-run/react": "^1.6.1",
+    "@remix-run/vercel": "^1.6.1",
+    "@vercel/node": "^1.15.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.6.1",
+    "@remix-run/eslint-config": "^1.6.1",
+    "@remix-run/serve": "^1.6.1",
+    "@rescript/react": "^0.10.3",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "eslint": "^8.15.0",
+    "rescript": "^9.1.4",
+    "typescript": "^4.6.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
