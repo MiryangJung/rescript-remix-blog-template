@@ -44,3 +44,7 @@ module Link = {
     ~children: React.element,
   ) => React.element = "Link"
 }
+
+@module("@remix-run/node") external json: 'a => Webapi.Fetch.Response.t = "json"
+
+@module("@remix-run/react") external useLoaderData: unit => 'a = "useLoaderData"

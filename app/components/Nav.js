@@ -12,8 +12,8 @@ function Nav(Props) {
                       prefetch: "none",
                       to: "/",
                       children: React.createElement("span", {
-                            className: "font-bold text-3xl"
-                          }, "BLOG-NAME")
+                            className: "font-bold text-xl"
+                          }, "BLOG")
                     }), React.createElement("ul", {
                       className: "flex"
                     }, React.createElement("li", {
