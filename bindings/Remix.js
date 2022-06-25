@@ -13,6 +13,8 @@ var Scripts = {};
 
 var LiveReload = {};
 
+var RemixBrowser = {};
+
 export {
   Meta ,
   Links ,
@@ -20,6 +22,7 @@ export {
   ScrollRestoration ,
   Scripts ,
   LiveReload ,
+  RemixBrowser ,
   
 }
 /* No side effect */

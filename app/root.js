@@ -17,7 +17,7 @@ function Root$default(Props) {
                     }), React.createElement("meta", {
                       content: "width=device-width,initial-scale=1",
                       name: "viewport"
-                    }), React.createElement(React$1.Meta, {}), React.createElement(React$1.Links, {})), React.createElement("body", undefined, React.createElement(React$1.Outlet, {}), React.createElement(React$1.ScrollRestoration, {}), React.createElement(React$1.Scripts, {}), React.createElement(React$1.Scripts, {})));
+                    }), React.createElement(React$1.Meta, {}), React.createElement(React$1.Links, {})), React.createElement("body", undefined, React.createElement(React$1.Outlet, {}), React.createElement(React$1.ScrollRestoration, {}), React.createElement(React$1.Scripts, {}), React.createElement(React$1.LiveReload, {})));
 }
 
 var $$default = Root$default;

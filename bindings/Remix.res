@@ -25,5 +25,10 @@ module Scripts = {
 
 module LiveReload = {
   @module("@remix-run/react") @react.component
-  external make: (~port: int=?) => React.element = "Scripts"
+  external make: (~port: int=?) => React.element = "LiveReload"
+}
+
+module RemixBrowser = {
+  @module("@remix-run/react") @react.component
+  external make: unit => React.element = "RemixBrowser"
 }
