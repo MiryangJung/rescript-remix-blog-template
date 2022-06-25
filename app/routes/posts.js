@@ -5,9 +5,9 @@ import * as React$1 from "@remix-run/react";
 
 function $$default(param) {
   return React.createElement("div", {
-              className: "w-full px-10 py-5 flex flex-col items-center"
+              className: "w-full py-7 flex flex-col items-center"
             }, React.createElement("div", {
-                  className: "max-w-5xl w-full prose dark:prose-invert"
+                  className: "max-w-5xl w-full prose dark:prose-invert px-10"
                 }, React.createElement(React$1.Outlet, {})));
 }
 
