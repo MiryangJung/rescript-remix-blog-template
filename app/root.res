@@ -3,6 +3,11 @@ let meta = () =>
     "title": "rescript remix blog example",
   }
 
+let links = () => {
+  let styles = %raw("require('./styles/global.css')")
+  [{"rel": "stylesheet", "href": styles}]
+}
+
 @react.component
 let default = () =>
   <html lang="ko">

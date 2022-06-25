@@ -9,6 +9,14 @@ function meta(param) {
         };
 }
 
+function links(param) {
+  var styles = (require('./styles/global.css'));
+  return [{
+            rel: "stylesheet",
+            href: styles
+          }];
+}
+
 function Root$default(Props) {
   return React.createElement("html", {
               lang: "ko"
@@ -24,6 +32,7 @@ var $$default = Root$default;
 
 export {
   meta ,
+  links ,
   $$default ,
   $$default as default,
   

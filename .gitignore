@@ -4,6 +4,7 @@ node_modules
 .env
 .vercel
 .output
+.log
 
 /build/
 /public/build
@@ -13,3 +14,5 @@ node_modules
 /lib
 .bsb.lock
 .merlin
+
+/app/**/*.css

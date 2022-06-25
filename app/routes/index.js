@@ -3,7 +3,9 @@
 import * as React from "react";
 
 function Index$Header(Props) {
-  return React.createElement(React.Fragment, undefined, "BLOG NAME");
+  return React.createElement("div", {
+              className: "text-red-500"
+            }, "BLOG NAME");
 }
 
 var Header = {

@@ -1,7 +1,7 @@
 module Header = {
   @react.component
   let make = () => {
-    <> {`BLOG NAME`->React.string} </>
+    <div className={`text-red-500`}> {`BLOG NAME`->React.string} </div>
   }
 }
 

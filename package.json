@@ -3,8 +3,10 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "npm run build:css && remix build",
+    "build:css": "tailwindcss -m -i ./styles/global.css -o app/styles/global.css",
+    "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
+    "dev:css": "tailwindcss -w -i ./styles/global.css -o app/styles/global.css",
     "res:dev": "rescript build -w"
   },
   "dependencies": {
@@ -22,8 +24,12 @@
     "@rescript/react": "^0.10.3",
     "@types/react": "^17.0.45",
     "@types/react-dom": "^17.0.17",
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.2",
     "eslint": "^8.15.0",
+    "postcss": "^8.4.14",
     "rescript": "^9.1.4",
+    "tailwindcss": "^3.1.4",
     "typescript": "^4.6.4"
   },
   "engines": {
