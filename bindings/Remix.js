@@ -15,6 +15,8 @@ var LiveReload = {};
 
 var RemixBrowser = {};
 
+var Link = {};
+
 export {
   Meta ,
   Links ,
@@ -23,6 +25,7 @@ export {
   Scripts ,
   LiveReload ,
   RemixBrowser ,
+  Link ,
   
 }
 /* No side effect */

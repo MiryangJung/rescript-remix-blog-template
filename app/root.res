@@ -19,7 +19,8 @@ let default = () =>
       /* All link exports on all routes will go here */
       <Remix.Links />
     </head>
-    <body>
+    <body className={`bg-neutral-900`}>
+      <Nav />
       /* Child routes go here */
       <Remix.Outlet />
       /* Manages scroll position for client-side transitions */

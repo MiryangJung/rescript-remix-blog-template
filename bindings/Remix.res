@@ -32,3 +32,15 @@ module RemixBrowser = {
   @module("@remix-run/react") @react.component
   external make: unit => React.element = "RemixBrowser"
 }
+
+module Link = {
+  @module("@remix-run/react") @react.component
+  external make: (
+    ~prefetch: [#intent | #render | #none]=?,
+    ~to: string,
+    ~reloadDocument: bool=?,
+    ~replace: bool=?,
+    ~state: 'a=?,
+    ~children: React.element,
+  ) => React.element = "Link"
+}
