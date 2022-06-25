@@ -6,9 +6,22 @@
 - [구현](#구현)
 - [트러블 슈팅](#트러블-슈팅)
 
+![home](/docs/home.png)
+
 ## 설치 및 실행
 
-TBD
+- 설치
+
+```shell
+yarn
+```
+
+- 실행
+
+```shell
+yarn res:dev
+yarn dev
+```
 
 ## 설계
 
@@ -50,7 +63,9 @@ TBD
 
 ## 기능
 
-TBD
+| 글 목록 | 글 보기 |
+|---|---|
+|![list](/docs/list.png) |![post](/docs/post.png) |
 
 ## 구현
 
@@ -59,6 +74,8 @@ TBD
 | 파일 | 역할 |
 |---|---|
 | `bindings/Remix.res` | remix 바인딩 |
+| `routes/index.res` | `/` 페이지 및 mdx를 읽어 최근 글 목록 |
+| `posts.res` | $posts Child routes 스타일링 |
 
 ## 트러블 슈팅
 
@@ -70,6 +87,7 @@ TBD
   - 어떤 DB store를 사용할 지 고민 필요.
   - 근데 다시 생각해보니 DB에 데이터를 넣으려면 인증 부분이 들어가야해서 초기 기획과 맞지 않음.
   - 일단 이건 나중에 생각해보고 mdx를 로딩하는 거부터 해결하자.
+    - **mdx 라우팅과 `<Outlet>` 으로 해결!**
 - `LoaderFunction` 이 바인딩 안 되어있음.
   - 필요한 이유 : [mdx#example-blog-usage](https://remix.run/docs/en/v1.4.1/guides/mdx#example-blog-usage)
   - 바인딩 된 PR이 아직 머지가 안되어있음을 발견! [rescript-remix PR#21](https://github.com/tom-sherman/rescript-remix/pull/21)
