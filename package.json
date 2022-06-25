@@ -1,5 +1,5 @@
 {
-  "name": "rescript-remix-blog-example",
+  "name": "rescript-remix-blog-template",
   "private": true,
   "sideEffects": false,
   "scripts": {

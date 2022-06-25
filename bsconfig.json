@@ -1,5 +1,5 @@
 {
-    "name": "rescript-remix-blog-example",
+    "name": "rescript-remix-blog-template",
     "reason": { "react-jsx": 3 },
     "bs-dependencies": ["@rescript/react"],
     "ppx-flags": [],
