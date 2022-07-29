@@ -1,4 +1,5 @@
 # rescript-remix-blog-template
+remix ReScript Blog Template
 
 > [rescript-remix-blog-template.vercel.app](http://rescript-remix-blog-template.vercel.app/)
 
